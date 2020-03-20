@@ -1,0 +1,158 @@
+/*
+Theme Name: Dicot Pro Child
+description: >-
+  Dicot Pro Child Theme
+Template: dicot-pro
+Version: 1.0.0
+*/
+/* Header ***/
+a:hover {
+  color: #008080 !important;
+}
+
+.site-logo {
+  text-align: right;
+}
+
+#site-navigation {
+  border: 0 none;
+}
+
+#site-navigation .primary-menu a {
+  font-size: 1.8rem;
+}
+
+.cb-main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cb-auth-btn {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.cb-auth-btn li {
+  margin-right: 20px;
+}
+
+.cb-auth-btn li a {
+  display: block;
+  padding: 10px 20px;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+  color: #aaa;
+  font-size: 2rem;
+  font-weight: 700;
+  transition: 0.25s linear;
+}
+
+.cb-auth-btn li.cb-log-in-btn a:hover {
+  border-color: #999;
+  color: #777 !important;
+}
+
+.cb-auth-btn li.cb-sign-up-btn a {
+  background-color: #168382;
+  border-color: #168382;
+  color: #eee !important;
+}
+
+.cb-auth-btn li.cb-sign-up-btn a:hover {
+  background-color: #1EBCB7;
+  border-color: #1EBCB7;
+}
+
+/*** Header */
+/* Blog posts ***/
+.post-thumbnail {
+  width: 100%;
+}
+
+.psac-featured-video iframe,
+.psac-post-carousel.psac-design-2 .psac-post-image-bg {
+  height: 220px;
+}
+
+.owl-nav {
+  display: none;
+}
+
+.psac-post-carousel.psac-design-2 .psac-post-title {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.psac-post-title a {
+  color: #666;
+}
+
+.psac-post-date {
+  text-align: left;
+  color: #aaa;
+}
+
+.psac-post-date .psac-time {
+  margin-left: 0;
+}
+
+/*** Blog posts */
+/* Footer ***/
+footer {
+  background-color: #272733;
+}
+
+footer .footer-mega-col-wrap {
+  padding-top: 50px;
+}
+
+.footer-mega-col-wrap {
+  text-align: justify;
+}
+
+footer .widget-title {
+  color: #eee;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+
+footer .textwidget p {
+  color: #ddd;
+}
+
+.widget.fmgc-per-row-3 {
+  width: 25%;
+}
+
+.cb_social_links {
+  list-style: none;
+  display: flex;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.cb_social_links li {
+  margin-right: 15px;
+}
+
+.cb_social_links li a {
+  color: #fff;
+  display: block;
+}
+
+.site-info {
+  background-color: #1d1d2b;
+  padding: 20px 0.9375rem;
+}
+
+.cb_copyright {
+  text-align: right;
+  color: #eee;
+  margin-right: 60px;
+}
+
+/*** Footer */
